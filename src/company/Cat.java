@@ -16,6 +16,7 @@ public class Cat implements Creature{
     public boolean run(Treadmil way) {
         if(this.speed > way.getSpeed() && this.stamina > way.getLen()){
             System.out.println("Пробежал");
+
             return true;
         }
         else{

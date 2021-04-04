@@ -1,7 +1,8 @@
 package company;
 public class Main{
     public static void main(String[] args){
-        Men person = new Men("Тренер Михаил", 15, 100, 3);
+
+       Men person = new Men("Тренер Михаил", 15, 100, 3);
         Robot droid = new Robot("Робот-сатанист", 25, 1000, 9);
         Cat scp = new Cat("Meowzilla", 20, 150, 5);
 

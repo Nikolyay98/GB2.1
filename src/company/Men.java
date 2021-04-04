@@ -2,7 +2,9 @@ package company;
 
 public class Men implements Creature {
     private String name;
+
     private int speed;
+
     private int stamina;
     private int jump_height;
     public Men(String name, int speed, int stamina, int jump_height){
