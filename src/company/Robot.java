@@ -3,6 +3,7 @@ package company;
 public class Robot implements Creature {
     private String name;
     private int speed;
+
     private int stamina;
     private int jump_height;
     public Robot(String name, int speed, int stamina, int jump_height){
